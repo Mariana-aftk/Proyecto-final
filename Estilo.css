@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+}
+a{
+	text-decoration: none;
+	color:  #444342  ;
+	width: 140px;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+a:hover{
+	color:  #9d9d9d;
+}
+header{
+	text-align: center;
+}
+button{
+	border-style: none;
+	background-color:  #ebeb0f;
+	width: 20px;
+	height: 20px;
+}
+
+input{
+	border-style: none;
+	width: 300px;
+	height: 20px;
+}
+section{
+	text-align: center;
+	padding-top: 70px;
+}
+footer{
+	background:  #f1f1f1;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding: 10px;
+}
+.img{
+	width: 89%;
+	text-align: center; 
+}
+.colum1 div{
+	background-color:  #f1f1f1;
+	height: 50px;
+	display: inline-block;
+	float: center;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-right: 80px;
+}
+.colum2{
+	display: inline-grid;
+	padding: 10px;
+	padding-left: 10px;
+	float: left;
+}
+.colum3{
+	display: inline-block;
+	padding-top: 20px;
+}
+.colum4{
+	background:  #f1f1f1;
+	display: flex;
+	padding: 20px;
+	float: left;
+}
+.colum5{
+	background:  #f1f1f1;
+	display: flex;
+	padding: 20px;
+	float: right;
+}
+
+.container{
+	margin: 0 auto;
+	width: 930px;
+	border:solid 1px #FFF;
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+@media only screen and (max-width: 380px){
+	.container, .row, .carousel-caption {
+		width: 100%;
+	}
+}
